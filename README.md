@@ -15,7 +15,7 @@ __To understand the differences in distribution of "docking_score" and "RMSD" (c
 
 **So, statistically these values belong to same distribution.**
 
-For docking, monomer or homo-2-mer won't make any difference. But if docking is furtherevaluated by molecular dynamics simulation, dimer unit should be used as it indicate biological assembly.
+For docking, monomer or homo-2-mer won't make any difference. But if docking is further evaluated by molecular dynamics simulation, dimer unit should be used as it indicate biological assembly.
 The results are shown in figure below:
 
 ![My Image](plotting/homodimer_monomer_6W63.png)
