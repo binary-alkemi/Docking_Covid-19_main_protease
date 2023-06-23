@@ -1,0 +1,43 @@
+AutoDock Vina v1.2.3
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# J. Eberhardt, D. Santos-Martins, A. F. Tillack, and S. Forli  #
+# AutoDock Vina 1.2.0: New Docking Methods, Expanded Force      #
+# Field, and Python Bindings, J. Chem. Inf. Model. (2021)       #
+# DOI 10.1021/acs.jcim.1c00203                                  #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, J. Comp. Chem. (2010)                         #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see https://github.com/ccsb-scripps/AutoDock-Vina for  #
+# more information.                                             #
+#################################################################
+
+Scoring function : ad4
+Ligand: 6w63_ligand.pdbqt
+Exhaustiveness: 32
+CPU: 0
+Verbosity: 1
+
+Reading AD4.2 maps ... done.
+Performing docking (random seed: -1297668022) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1        -9.29          0          0
+   2       -9.289      2.492      4.707
+   3       -9.271      2.186      7.446
+   4        -9.09       2.39      4.901
+   5       -9.042      2.103      5.297
+   6       -8.907      3.021      6.259
+   7       -8.479      1.884      5.042
+   8       -8.369      2.774      5.773
+   9       -7.768       1.46      7.905
