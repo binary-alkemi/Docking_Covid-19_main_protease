@@ -10,11 +10,9 @@ There are couple of  terminal residues within 5 Å of ligand X77.
 
 Here, the objective is to check if is there any difference if monomer or dimer units are considered. 
 
-<<<<<<< HEAD
 If docking is evaluated by molecular dynamics simulation, dimer unit should be used as it indicate biological assembly.
 =======
 In my opinion, if docking is further evaluated by long MD simulation or MM/PBSA studies, dimer unit should be used as it represents biological assembly.
->>>>>>> da8c3ab9b67e31fb524818d29905fbb76845ab19
 
 The results are shown in figure below:
 
