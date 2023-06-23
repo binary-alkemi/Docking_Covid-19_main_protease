@@ -12,7 +12,8 @@ Here, the objective is to check if is there any difference if monomer or dimer u
 
 If docking is evaluated by molecular dynamics simulation, dimer unit should be used as it indicate biological assembly.
 
-In my opinion, if docking is further evaluated by long MD simulation or MM/PBSA studies, dimer unit should be used as it represents biological assembly.
+_To understand the differences in distribution of "docking_score" and "RMSD" (calculated with obrms) values from five repeats of docking, student's t-test also performed. The p-value is > 0.90 and > 0.64 for docking_score and RMSD respectively._ 
+**So, statistically there is no change in these values.**
 
 The results are shown in figure below:
 
